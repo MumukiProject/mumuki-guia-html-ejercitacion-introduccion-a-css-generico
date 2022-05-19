@@ -2,7 +2,7 @@ En la actualidad, cada vez son más las redes sociales que nos permiten reaccion
 
 - un título `h2` que diga: `Comentarios`;
 - agregar 5 comentarios, que deben tener:
-  - un título `h3` que contenga un link con el nombre de la usuaria (por ejemplo, `@adalovelace`). El link no debe llevar a ningún lado;
+  - un título `h3` que contenga un link con el nombre de la usuaria (por ejemplo, `@alelenis`). El link no debe llevar a ningún lado;
   - un elemento `p` con el momento de publicación del comentario (por ejemplo, `Hace 15 minutos`);
   - un elemento `p` con `lorem ipsum`.
   - 4 elementos en línea `span` que consistan en un emoji y un número, indicando la reacción y la cantidad de reacciones (por ejemplo: ❤️ 2 | 👍 4 | 👏 3 | 🔥 5)
