@@ -1,0 +1,44 @@
+/*<output#*//*#output>*/
+/*<tests#*/it("Hay un título h1 que dice Mi cuenta", () => {
+  document.querySelector("h1").should.have.trimmed.text("Mi cuenta");
+})
+
+it("Hay un título h2 que dice Últimos movimientos", () => {
+  document.querySelector("h2").should.have.trimmed.text("Últimos movimientos");
+})
+
+
+it("Se introdujeron cinco títulos h3", () => {
+  document.getElementsByTagName("h3").length.should.eql(5);
+})
+
+it("Se introdujeron diez párrafos", () => {
+  document.getElementsByTagName("p").length.should.eql(10);
+})
+
+
+it("Los párrafos tienen la tipografía Raleway",() => {
+  document.querySelector('p').should.have.style('font-family', 'Raleway')
+})
+
+it("Los párrafos de la clase fecha tienen un tamaño de letra de 10px",() => {
+  document.querySelector('.fecha').should.have.style('font-size', '10px')
+})
+
+it("Los párrafos de la clase fecha tienen el color #C8C8C8",() => {
+  document.querySelector('.fecha').should.have.style('color', 'rgb(200, 200, 200)')
+})
+
+it ("los ingresos tienen un color verde #00C83C",() => {
+  document.querySelector('.ingreso').should.have.style("color", "rgb(0, 200, 60)")
+})
+
+
+it ("las salidas tienen un color rojo #FF0000",() => {
+  document.querySelector('.salida').should.have.style("color", "rgb(255, 0, 0)")
+})
+
+
+/*#tests>*/
+/*<options#*/output_ignore_scripts: true
+output_ignore_styles: true/*#options>*/
