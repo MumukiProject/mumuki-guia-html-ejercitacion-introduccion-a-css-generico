@@ -1,23 +1,23 @@
 /*<output#*//*#output>*/
-/*<tests#*/it("Se introdujeron diez etiquetas span", () => {
-  document.querySelectorAll("span").length.should.eql(10);
+/*<tests#*/it("Se introdujeron diez etiquetas i", () => {
+  document.querySelectorAll("i").length.should.eql(10);
 })
 
 
-it("El primer span tiene un tamaño de 100px", () => {
-  let element = document.querySelectorAll("span")[0].should.have.style('font-size', '100px');
+it("El primer i tiene un tamaño de 100px", () => {
+  let element = document.querySelectorAll("i")[0].should.have.style('font-size', '100px');
 })
 
-it("El tercer span tiene un tamaño de 80px", () => {
-  let element = document.querySelectorAll("span")[2].should.have.style('font-size', '80px');
+it("El tercer i tiene un tamaño de 80px", () => {
+  let element = document.querySelectorAll("i")[2].should.have.style('font-size', '80px');
 })
 
-it("El septimo span tiene un tamaño de 40px", () => {
-  let element = document.querySelectorAll("span")[6].should.have.style('font-size', '40px');
+it("El septimo i tiene un tamaño de 40px", () => {
+  let element = document.querySelectorAll("i")[6].should.have.style('font-size', '40px');
 })
 
-it("El último span tiene un tamaño de 10px", () => {
-  let element = document.querySelectorAll("span")[9].should.have.style('font-size', '10px');
+it("El último i tiene un tamaño de 10px", () => {
+  let element = document.querySelectorAll("i")[9].should.have.style('font-size', '10px');
 })
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
