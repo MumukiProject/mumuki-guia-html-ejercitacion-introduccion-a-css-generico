@@ -5,8 +5,8 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
 - poner las temperaturas extremas (0°C y 50°C) en negrita;
 - dar a cada temperatura un color distinto, cambiando gradualmente, siendo que:
 
-* para 0°C deberá ser el color `#0000FF`  <span class= 'cuadrado1'> </span>
-* para 5°C deberá ser el color `#009AFF`  <span class= 'cuadrado2'> </span>
+* para 0°C deberá ser el color `#0000FF` <span class= 'cuadrado1'> </span>
+* para 5°C deberá ser el color `#009AFF` <span class= 'cuadrado2'> </span>
 * para 10°C deberá ser el color `#00CDFF` <span class= 'cuadrado3'> </span>
 * para 15°C deberá ser el color `#A0E6FE` <span class= 'cuadrado4'> </span>
 * para 20°C deberá ser el color `#D0F7FC` <span class= 'cuadrado5'> </span>
