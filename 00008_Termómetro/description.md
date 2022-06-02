@@ -24,7 +24,6 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
   width: 50px;
   height: 10px;
   border-radius: 5px;
-  display: inline-block;
   background: #0000FF;
   border: 1px solid #000000;
 }
@@ -32,7 +31,6 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
   width: 50px;
   height: 10px;
   border-radius: 5px;
-  display: inline-block;
   background: #009AFF;
   border: 1px solid #000000;
 }
@@ -40,7 +38,6 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
   width: 50px;
   height: 10px;
   border-radius: 5px;
-  display: inline-block;
   background: #00CDFF;
   border: 1px solid #000000;
 }
@@ -48,7 +45,6 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
   width: 50px;
   height: 10px;
   border-radius: 5px;
-  display: inline-block;
   background: #A0E6FE;
   border: 1px solid #000000;
 }
@@ -56,7 +52,6 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
   width: 50px;
   height: 10px;
   border-radius: 5px;
-  display: inline-block;
   background: #D0F7FC;
   border: 1px solid #000000;
 }
@@ -64,7 +59,6 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
   width: 50px;
   height: 10px;
   border-radius: 5px;
-  display: inline-block;
   background: #FDFEE6;
   border: 1px solid #000000;
 }
@@ -72,7 +66,6 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
   width: 50px;
   height: 10px;
   border-radius: 5px;
-  display: inline-block;
   background: #FFFF67;
   border: 1px solid #000000;
 }
@@ -80,7 +73,6 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
   width: 50px;
   height: 10px;
   border-radius: 5px;
-  display: inline-block;
   background: #FFCA00;
   border: 1px solid #000000;
 }
@@ -88,7 +80,6 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
   width: 50px;
   height: 10px;
   border-radius: 5px;
-  display: inline-block;
   background: #FE9935;
   border: 1px solid #000000;
 }
@@ -96,7 +87,6 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
   width: 50px;
   height: 10px;
   border-radius: 5px;
-  display: inline-block;
   background: #FF561A;
   border: 1px solid #000000;
 }
@@ -104,10 +94,8 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
   width: 50px;
   height: 10px;
   border-radius: 5px;
-  display: inline-block;
   background: #FF0000;
   border: 1px solid #000000;
 }
-
 
 </style>
