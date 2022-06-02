@@ -22,8 +22,8 @@ it("La temperatura 50°C está en negrita",() => {
   document.querySelectorAll('ul li')[10].should.have.style('font-weight', 'bold')
 })
 
-it(" ",() => {
-  document.getElementsByTagName('p')[0].should.not.have.style;
+it("Los estilos están en el archivo css",() => {
+  _originalDocument_.getElementsByTagName('p')[0].should.not.have.style('color', 'rgb(0, 0, 255');
 })
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
