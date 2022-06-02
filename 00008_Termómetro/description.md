@@ -24,7 +24,7 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
 
 <style>
 .cuadrado{
-  width: 100px;
+  width: 50px;
   height: 10px;
   border-radius: 5px;
   background: #0000FF;
