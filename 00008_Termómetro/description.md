@@ -5,7 +5,7 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
 - poner las temperaturas extremas (0°C y 50°C) en negrita;
 - dar a cada temperatura un color distinto, cambiando gradualmente, siendo que:
 
-* para 0°C deberá ser el color `#0000FF` <span style= "color: #0000FF"> 0°C </span>
+* para 0°C deberá ser el color `#0000FF` <span> 0°C </span> <div class= 'cuadrado'> </div>
 * para 5°C deberá ser el color `#009AFF` <span style= "color: #009AFF"> 5°C </span>
 * para 10°C deberá ser el color `#00CDFF` <span style= "color: #00CDFF"> 10°C </span>
 * para 15°C deberá ser el color `#A0E6FE` <span style= "color: #A0E6FE"> 15°C </span>
@@ -21,3 +21,14 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
 [En esta página](https://cdn.shopify.com/s/files/1/2303/2711/files/colour_temperature_kelvin_chart_make_up.jpg?v=1513856014) podés ver un ejemplo.
 
 > Creá el código HTML que acabamos de describir.
+
+<style>
+.cuadrado{
+  width: 100px;
+  height: 10px;
+  border-radius: 5px;
+  background: #0000FF;
+  display: inline-block;
+
+}
+</style>
