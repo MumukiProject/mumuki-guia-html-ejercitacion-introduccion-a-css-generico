@@ -2,6 +2,7 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
 
 - una lista desordenada con 11 ítems;
 - la lista debe ir de `Temperatura: 0°C` a `Temperatura: 50°C` aumentando de a 5°C;
+- las temperaturas deben estar cada una dentro de una etiqueta `<p>`;
 - poner las temperaturas extremas (0°C y 50°C) en negrita;
 - dar a cada temperatura un color distinto, cambiando gradualmente, siendo que:
 
