@@ -11,11 +11,11 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
 * para 15°C deberá ser el color `#A0E6FE` <span class= 'cuadrado4'> </span>
 * para 20°C deberá ser el color `#D0F7FC`<span class= 'cuadrado5'> </span>
 * para 25°C deberá ser el color `#FDFEE6`<span class= 'cuadrado6'> </span>
-* para 30°C deberá ser el color `#FFFF67` <span class= 'cuadrado7'> </div>
-* para 35°C deberá ser el color `#FFCA00` <span class= 'cuadrado8'> </div>
-* para 40°C deberá ser el color `#FE9935` <span class= 'cuadrado9'> </div>
-* para 45°C deberá ser el color `#FF561A` <span class= 'cuadrado10'> </div>
-* para 50°C deberá ser el color `#FF0000` <span class= 'cuadrado11'> </div>
+* para 30°C deberá ser el color `#FFFF67` <span class= 'cuadrado7'> </span>
+* para 35°C deberá ser el color `#FFCA00` <span class= 'cuadrado8'> </span>
+* para 40°C deberá ser el color `#FE9935` <span class= 'cuadrado9'> </span>
+* para 45°C deberá ser el color `#FF561A` <span class= 'cuadrado10'> </span>
+* para 50°C deberá ser el color `#FF0000` <span class= 'cuadrado11'> </span>
 
 > Creá el código HTML que acabamos de describir.
 
