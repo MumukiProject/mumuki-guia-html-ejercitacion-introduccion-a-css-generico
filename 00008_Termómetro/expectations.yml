@@ -1,5 +1,5 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: index.html
+  binding: html:p
   inspection: Not:DeclaresStyle
