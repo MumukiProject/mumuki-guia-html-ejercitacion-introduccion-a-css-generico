@@ -11,4 +11,4 @@ expectations:
   inspection: DeclaresTag:h3
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresTag:span
+  inspection: DeclaresTag:p
