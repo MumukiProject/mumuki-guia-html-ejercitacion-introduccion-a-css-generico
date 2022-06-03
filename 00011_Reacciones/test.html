@@ -19,6 +19,9 @@ it("Los links de los nombre de usuario no tienen el subrayado por default",() =>
   document.querySelectorAll('h3')[0].should.have.style('text-decoration', 'none')
 })
 
+it("Los links de los nombre de usuario tienen el color #FF9100",() => {
+  document.querySelectorAll('h3')[0].should.have.style('color', 'rgb(255, 145, 0)')
+})
 
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
