@@ -26,10 +26,10 @@ Tené en cuenta las siguientes consideraciones:
 - poner a los títulos la tipografía de Google Fonts `Poppins`;
 - dar a los títulos h1 y h2 un tamaño de fuente de `25px`;
 - poner a cada estado un color de letra distinto utilizando clases siguiendo el siguiente criterio:
-  - Pendiente: Azul #0000FF;
-  - Haciendo: Naranja #FF8000
-  - Hecha: Verde #008F39
-  - Cancelada: Rojo #FF0000
+  - Pendiente: Azul `#0000FF`;
+  - Haciendo: Naranja `#FF8000`;
+  - Hecha: Verde `#008F39`;
+  - Cancelada: Rojo `#FF0000`;
 
 Las clases deben tener el mismo nombre que el estado, por ejemplo: `class= "pendiente"`.
 
