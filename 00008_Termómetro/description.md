@@ -17,6 +17,9 @@ Queremos graficar las temperaturas de un termómetro :thermometer: utilizando co
   - para 45°C deberá ser el color `#FF561A` <span class= 'barra' id= 'cuarentaicinco'> </span>
   - para 50°C deberá ser el color `#FF0000` <span class= 'barra' id= 'cincuenta'> </span>
 
+Por ejemplo:
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-html-ejercitacion-introduccion-a-css-generico/master/assets/termometro_colores_vertical2_1654280175468.svg" alt="<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-html-ejercitacion-introduccion-a-css-generico/master/assets/termometro_colores_vertical2_1654280179783.svg" alt="termometro_colores_vertical2_1654280175468.svg" width="auto" height="auto">" width="auto" height="auto">
+
 > Creá el código HTML que acabamos de describir.
 
 <style>
