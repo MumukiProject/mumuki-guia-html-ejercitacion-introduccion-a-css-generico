@@ -3,7 +3,6 @@
   document.querySelector("h2").should.have.trimmed.text("Comentarios");
 })
 
-
 it("Se introdujeron cinco h3", () => {
   document.getElementsByTagName("h3").length.should.eql(5);
 })
@@ -16,9 +15,6 @@ it("Los párrafos tienen un tipografía Monserrat",() => {
   document.querySelector('p').should.have.style('font-family', 'Monserrat')
 })
 
-it("Los span tienen un color de fondo #C2C2C2",() => {
-  document.querySelector('p').should.have.style('background-color', 'rgb(194, 194, 194)')
-})
 
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true

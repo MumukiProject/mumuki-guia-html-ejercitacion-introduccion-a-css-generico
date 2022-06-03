@@ -11,6 +11,5 @@ En la actualidad, cada vez son más las redes sociales que nos permiten reaccion
 - dar a los títulos un tamaño de fuente de `45px`;
 - dar al nombre de usuario un color que se distinga `#FF9100` y sacar el subrayado por default;
 - dar a la fecha un tamaño de letra más pequeña y un color `# 9b9b9b`;
-- ponerle a los párrafos de las reacciones un color de fondo `#C2C2C2`.
 
 > Creá el código HTML que acabamos de describir.
