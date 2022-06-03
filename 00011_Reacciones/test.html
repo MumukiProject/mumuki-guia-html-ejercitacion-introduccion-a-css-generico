@@ -4,24 +4,20 @@
 })
 
 
-it("Se introdujeron diez párrafos", () => {
-  document.getElementsByTagName("p").length.should.eql(10);
-})
-
 it("Se introdujeron cinco h3", () => {
   document.getElementsByTagName("h3").length.should.eql(5);
 })
 
-it("Se introdujeron 20 elementos en línea span", () => {
-  document.getElementsByTagName("span").length.should.eql(20);
+it("Hay en total 15 párrafos p", () => {
+  document.getElementsByTagName("p").length.should.eql(15);
 })
 
 it("Los párrafos tienen un tipografía Monserrat",() => {
   document.querySelector('p').should.have.style('font-family', 'Monserrat')
 })
 
-it("Los span tienen un color de fondo #9b9b9b",() => {
-  document.querySelector('span').should.have.style('background-color', 'rgb(155, 155, 155)')
+it("Los span tienen un color de fondo #C2C2C2",() => {
+  document.querySelector('p').should.have.style('background-color', 'rgb(194, 194, 194)')
 })
 
 /*#tests>*/
