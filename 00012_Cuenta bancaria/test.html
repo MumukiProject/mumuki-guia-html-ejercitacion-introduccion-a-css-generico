@@ -46,7 +46,11 @@ it ("las salidas tienen un color rojo #FF0000",() => {
 })
 
 it ("los ingresos tienen un simbolo + antes del valor",() => {
-  document.querySelector('.ingreso').should.contain.text("+")
+  let ingresos = document.querySelectorAll('.ingreso');
+  
+  for (let i = 0; i < ingresos.length; i++) {
+    ingresos[i].should.contain.text("+")
+  }
 })
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
