@@ -15,6 +15,10 @@ it("Los párrafos tienen un tipografía Monserrat",() => {
   document.querySelector('p').should.have.style('font-family', 'Monserrat')
 })
 
+it("Los links de los nombre de usuario no tienen el subrayado por default",() => {
+  document.querySelectorAll('h3')[0].should.have.style('text-decoration', 'none')
+})
+
 
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
