@@ -51,6 +51,13 @@ it("La temperatura 0°C está en negrita",() => {
   document.querySelectorAll('ul li')[0].should.have.style('font-weight', 'bold')
 })
 
+it("Las temperaturas intermedias no estan en negrita",() => {
+  document.querySelectorAll('ul li')[1].should.not.have.style('font-weight', 'bold')
+  document.querySelectorAll('ul li')[2].should.not.have.style('font-weight', 'bold')
+  document.querySelectorAll('ul li')[5].should.not.have.style('font-weight', 'bold')
+  document.querySelectorAll('ul li')[9].should.not.have.style('font-weight', 'bold')
+})
+
 it("La temperatura 50°C está en negrita",() => {
   document.querySelectorAll('ul li')[10].should.have.style('font-weight', 'bold')
 })
