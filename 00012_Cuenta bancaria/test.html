@@ -29,6 +29,14 @@ it("Los párrafos de la clase fecha tienen el color #C8C8C8",() => {
   document.querySelector('.fecha').should.have.style('color', 'rgb(200, 200, 200)')
 })
 
+it ("entre los movimientos hay por lo menos un ingreso",() => {
+  document.querySelector('.ingreso').should.exist;
+})
+
+it ("entre los movimientos hay por lo menos una salida",() => {
+  document.querySelector('.salida').should.exist;
+})
+
 it ("los ingresos tienen un color verde #00C83C",() => {
   document.querySelector('.ingreso').should.have.style("color", "rgb(0, 200, 60)")
 })
