@@ -8,7 +8,7 @@ En la actualidad, cada vez son más las redes sociales que nos permiten reaccion
   - un elemento `p` que contenga cuatro emojis y un número indicando la cantidad de reacciones (por ejemplo: ❤️️ 2 | 👍 4 | 👏 3 | 🔥 5)
 
 - poner la tipografía de Google fonts `Monserrat`;
-- dar a los títulos un tamaño de fuente de `45px`;
+- dar a los títulos h3 un tamaño de fuente de `25px`;
 - dar al nombre de usuario un color que se distinga `#FF9100` y sacar el subrayado por default;
 - dar a la fecha un tamaño de letra más pequeña y un color `# 9b9b9b`;
 

@@ -19,10 +19,12 @@ it("Los párrafos tienen un tipografía Monserrat",() => {
   document.querySelector('p').should.have.style('font-family', 'Monserrat')
 })
 
-it("Los títulos tienen un tamaño de fuente de 45px",() => {
-  document.querySelector('h2').should.have.style('font-size', '45px')
-  document.querySelectorAll('h3')[0].should.have.style('font-size', '45px')
-  document.querySelectorAll('h3')[3].should.have.style('font-size', '45px')
+it("Los títulos h3 tienen un tamaño de fuente de 25px",() => {
+  document.querySelectorAll('h3')[0].should.have.style('font-size', '25px')
+  document.querySelectorAll('h3')[1].should.have.style('font-size', '25px')
+  document.querySelectorAll('h3')[2].should.have.style('font-size', '25px')
+  document.querySelectorAll('h3')[3].should.have.style('font-size', '25px')
+  document.querySelectorAll('h3')[4].should.have.style('font-size', '25px')
 })
 
 it("Los links de los nombre de usuario tienen el color #FF9100",() => {
