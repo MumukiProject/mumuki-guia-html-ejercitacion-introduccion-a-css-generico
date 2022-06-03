@@ -56,6 +56,7 @@ it ("los ingresos tienen un simbolo + antes del valor",() => {
 it ("las salidas tienen un simbolo - antes del valor",() => {
   let salidas = document.querySelectorAll('.salida');
   
+  salidas.forEach(salida => salida.should.contain.text("-");)
   for (let i = 0; i < salidas.length; i++) {
     salidas[i].should.contain.text("-");
   }
