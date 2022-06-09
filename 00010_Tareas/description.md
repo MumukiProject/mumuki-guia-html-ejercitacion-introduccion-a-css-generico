@@ -4,7 +4,7 @@ Necesitamos organizar nuestras tareas y para ello vamos a crear una lista de pen
 - un título `h2` que diga: `Tareas para hoy`;
 - agregar 6 tareas, que deben tener:
   - un título `h3` con la tarea a realizar (por ejemplo `Hacer las compras`);
-  - un párrafo `p` con el estado de la tarea: `pendiente`, `haciendo`, `hecha`, `cancelada`.
+  - un elemento en línea span con el estado de la tarea: `pendiente`, `haciendo`, `hecha`, `cancelada`.
   
 Por ejemplo:
 
