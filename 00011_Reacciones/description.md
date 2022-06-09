@@ -5,7 +5,7 @@ En la actualidad, cada vez son más las redes sociales que nos permiten reaccion
   - un título `h3` que contenga un link con el nombre del usuario (por ejemplo, `@alelenis`). El link no debe llevar a ningún lado;
   - un elemento `p` con el momento de publicación del comentario (por ejemplo, `Hace 15 minutos`);
   - un elemento `p` con `lorem ipsum`.
-  - un elemento `p` que contenga cuatro emojis y un número indicando la cantidad de reacciones (por ejemplo: ❤️️ 2 | 👍 4 | 👏 3 | 🔥 5)
+  - 4 elementos en línea span que consistan en un emoji y un número, indicando la reacción y la cantidad de reacciones (por ejemplo: ❤️ 2 | 👍 4 | 👏 3 | 🔥 5)
 
 - poner la tipografía de Google fonts `Monserrat`;
 - dar al nombre de usuario un color que se distinga `#FF9100`, un tamaño de fuente de `25px` y sacar el subrayado por default;
