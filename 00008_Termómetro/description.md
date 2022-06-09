@@ -1,8 +1,8 @@
 Queremos graficar las temperaturas de un termómetro :thermometer: utilizando colores que las representen mediante un código HTML que debe tener:
 
 - una lista desordenada con 11 ítems;
-- dentro de cada uno de los elementos de la lista un párrafo `p`;
-- cada párrafo debe contener una temperatura siendo que la lista debe ir de `Temperatura: 0°C` a `Temperatura: 50°C` aumentando de a 5°C;
+- dentro de cada uno de los elementos de la lista un `span`;
+- cada `span` debe contener una temperatura siendo que la lista debe ir de `Temperatura: 0°C` a `Temperatura: 50°C` aumentando de a 5°C;
 - poner las temperaturas extremas (0°C y 50°C) en negrita;
 - dar a cada temperatura un color distinto, cambiando gradualmente, siendo que:
   - para 0°C deberá ser el color `#0000FF`  <span class= 'barra' id='cero'> </span>
